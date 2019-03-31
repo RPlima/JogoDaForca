@@ -59,8 +59,9 @@ public class MainActivity extends AppCompatActivity {
                 String vetor = "";
                 for(int i =0; i < vetorPalpite.length; i++){
                     vetor += vetorPalpite[i];
+                    Log.i("Vetor",vetor);
                 }
-                Log.i("Vetor",vetor);
+
             }
         });
 
